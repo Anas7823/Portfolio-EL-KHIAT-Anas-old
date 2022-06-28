@@ -1,0 +1,52 @@
+/* Feuille de styles */
+
+p{
+  text-align: justify ;
+}
+.img_principal{
+  text-align: center;
+}
+.miniature:hover{
+  border: 6px solid #ddd;
+    
+}
+.droite{
+  text-align: right;
+}
+
+.avis_img{
+  float: left;
+  margin-right: 1em;
+}
+
+.logo{
+  width: 50px;
+  height: 50px;
+}
+.pdp{
+  font-size: 12px;
+  line-height: 2px; 
+}
+.logo2{
+  height: 50px;
+}
+.btn1{
+  float: right;
+}
+.img2{
+  border: 1px solid #e9ecef;
+  border-radius: 10px;
+  float: left;
+  margin: 0 15px 15px 0;
+}
+.col-6{
+  margin-top: 0px;
+}
+.password-bar, .passwordbar {
+  height: 2px;
+}
+
+.passwordbartext {
+  color: #039e1d;
+  font-size: 12px;
+}

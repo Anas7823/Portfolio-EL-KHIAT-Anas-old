@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="../css/styles.css">
+        <meta charset="UTF-8">
+        <title>LEGO WebStore(Achat)</title>
+    </head>
+
+<body>
+  <h1>LEGO WebStore</h1>  
+  <hr>
+  <a href="produit.html"><li>Produit</li></a>
+  <a href="acheter.html"><li>Acheter</li></a>
+  <a href="contact.html"><li>Contact</li></a>
+<hr>
+<h1>Acheter des LEGO </h1>
+
+<h2>Remplissez le formulaire ci-dessous pour commander des LEGO !</h2> 
+
+
+
+<h3>Informations personnelles</h3> 
+Civilité: <br> <input type="radio" name="genre"/>M.
+    <input type="radio" name="genre"/>Mme.  
+<form>
+    <p> Nom <input name="prenom" type="text"/> </p></p>
+    <p> Prénom <input name="nom" type="text"/> </p>
+    <p> Mail <input type="email" id="email"
+    pattern=".+@globex\.com" size="30" required> </p>
+</form>
+
+
+<h2> Informations de livraison </h2>
+Quantité commandée:
+<ul>
+<select name="Quantité">
+    <option value="1 boîte ">1 boîte</option>
+    <option value="2 boîtes ">2 boîtes</option>
+    <option value="3 boîtes ">3 boîtes</option>
+    <option value="4 boîtes ">4 boîtes</option>
+    <option value="5 boîtes ">5 boîtes</option>
+  </select>
+</ul>
+
+<li>Adresse de livraison: </li>
+<textarea name="resume" rows="4" cols="20"></textarea></menu>
+<h3>Confirmation</h3>
+<p> <input type="checkbox" name="bleu"/>J'ai relu ma commande et certifie que ces informations sont correctes.</p>
+
+<input type="submit" value="confirmer la commande" /><hr>
+<a href="#" class="btn btn-default">Retour en haut de page</a>
+<p>TP1 : Découverte de HTML et CSS</p> 
+<p>L2 Développement Web - 2018</p> 
+</body>
+</html>

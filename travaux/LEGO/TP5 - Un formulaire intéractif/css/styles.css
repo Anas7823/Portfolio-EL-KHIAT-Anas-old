@@ -1,0 +1,23 @@
+/* Feuille de styles */
+p{
+    text-align: justify ;
+}
+.img_principal{
+    text-align: center;
+}
+.miniature:hover{
+    border: 6px solid #ddd;
+    
+}
+.droite{
+    text-align: right;
+}
+
+.avis_img{
+    float: left;
+    margin-right: 1em;
+}
+.progress{ /*force du mdp invisible */
+    height: 2px;
+    display: none; 
+}

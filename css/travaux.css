@@ -1,0 +1,104 @@
+/* debut nav bar */
+.ulnom{
+    /* sert à centrer le bandeau */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* sert à centrer le bandeau */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: rgb(58,141,180);
+    background: linear-gradient(90deg, rgba(58,141,180,0.26420990759585083) 0%, rgba(33,150,190,1) 27%, rgba(123,69,252,1) 100%);
+}
+.ulnom li{
+    float: left !important;
+}
+.ulnom li a {
+    display: block !important;
+    color: white !important;
+    text-align: center !important;
+    padding: 14px 16px !important;
+    text-decoration: none !important ;
+}
+/* fin nav bar */
+
+body {
+    margin: 0;
+    padding: 0;
+    padding-top: 0%;
+    color: rgb(202, 202, 202);
+    background: linear-gradient(90deg, rgba(58,141,180,0.26420990759585083) 0%, rgba(33,150,190,1) 27%, rgba(123,69,252,1) 100%);
+    font-family: "Source Code Pro", monospace;
+}
+
+/* Lazy Load Styles */
+.card-image {
+	display: block;
+	min-height: 20rem; /* layout hack */
+	background-size: cover;
+	filter: blur(3px); /* blur the lowres image */
+}
+
+.card-image > img {
+	display: block;
+	width: 100%;
+	opacity: 0; /* visually hide the img element */
+}
+
+.card-image.is-loaded {
+	filter: none; /* remove the blur on fullres image */
+	transition: filter 1s;
+}
+
+
+/* Layout Styles */
+.card-list {
+	display: block;
+	margin: 0% auto;
+	padding: 0;
+	font-size: 0;
+	text-align: center;
+	list-style: none;
+}
+
+.card-list > .card-list > .card{
+    background-color: #202022 !important;
+}
+.card {
+	display: inline-block;
+	width: 90%;
+	max-width: 20rem;
+	margin: 1%;
+	font-size: 1rem;
+	text-decoration: none;
+	overflow: hidden;
+	box-shadow: 0 0 3rem -1rem rgba(0,0,0,0.5);
+	transition: transform 0.1s ease-in-out, box-shadow 0.1s;
+	border-radius: 20px;
+	-webkit-box-shadow: 12px 12px 15px 8px rgba(63,20,255,0.7);
+	-moz-box-shadow: 12px 12px 15px 8px rgba(63,20,255,0.7);
+	box-shadow: 12px 12px 15px 8px rgba(63,20,255,0.7);
+}
+
+.card:hover {
+	transform: translateY(-0.5rem) scale(1.0125);
+	box-shadow: 0 0.5em 3rem -1rem rgba(0,0,0,0.5);
+}
+
+.card-description {
+	display: block;
+	padding: 1em 0.5em;
+
+	color: white;
+	text-decoration: none;
+}
+
+.card-description > h2 {
+	margin: 0 0 0.5em;
+}
+
+.card-description > p {
+	margin: 0;
+}
