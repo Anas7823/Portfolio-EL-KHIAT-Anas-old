@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    color: rgb(202, 202, 202);
+    background-color: #151515;
+    height: 100vh;
+    background: rgb(58,141,180);
+    background: linear-gradient(90deg, rgba(58,141,180,0.26420990759585083) 0%, rgba(33,150,190,1) 27%, rgba(123,69,252,1) 100%);
+    font-family: "Source Code Pro", monospace;
+    overflow: hidden;
+  }
+/* nav bar */
+.nav{
+    /* sert à centrer le bandeau */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* sert à centrer le bandeau */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: rgb(58,141,180);
+    background: linear-gradient(90deg, rgba(58,141,180,0.26420990759585083) 0%, rgba(33,150,190,1) 27%, rgba(123,69,252,1) 100%);
+  }
+  .nav li{
+    float: left !important;
+      
+  }
+  .nav li a {
+    display: block !important;
+    color: white !important;
+    text-align: center !important;
+    padding: 14px 16px !important;
+    text-decoration: none !important ;
+  }
