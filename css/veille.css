@@ -39,4 +39,21 @@ body{
   color: white;
   text-decoration: none;
   float: right;
- } 
+ }
+ 
+#masquer{
+  right: 1rem;
+  position: absolute;
+  background: #fff;
+  transform: translateY(-50%);
+  border-radius: 6px;
+  transition: 0.5s;
+  opacity: 0;
+  visibility: hidden;
+}
+
+a:hover #masquer{
+  opacity:1;
+  visibility:visible;
+  transform:translateX(-25px)translateY(-50%);
+}
