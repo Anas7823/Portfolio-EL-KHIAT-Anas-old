@@ -43,6 +43,7 @@ body{
  
 #masquer{
   right: 1rem;
+  bottom: 6.5%;
   position: absolute;
   background: #fff;
   transform: translateY(-50%);
