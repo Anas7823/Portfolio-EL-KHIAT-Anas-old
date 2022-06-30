@@ -48,6 +48,8 @@ html, body {
     font-size: 30px;
     font-weight: bold;
     margin-right: 15px;
+    margin-left: -23px;
+
 }
 #search input{
     border-radius: 10px;
