@@ -103,6 +103,21 @@ html {
   margin-bottom: 1.5rem;
 }
 
+.lien{
+  color: white;
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
+}
+
+.lien > a:hover{
+  color: #bb86fc;
+}
+
+.lien > a{
+  color: white;
+  text-decoration: none;
+}
+
 .description {
    font-size: 0.9rem;
   color: #818181;
