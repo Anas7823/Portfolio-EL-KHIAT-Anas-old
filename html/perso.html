@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apprentissage personnel</title>
     <!-- CSS only -->
+    <link rel="stylesheet" href="../css/perso.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -14,6 +15,83 @@
     
 </head>
 <body>
+        <ul class=nav> 
+            <div>
+               <li><a href="../index.html">Accueil</a></li>
+               <li><a href="Moi.html">À propos</a></li>
+               <li><a href="BTSSIO.html">BTS SIO</a></li>
+               <li><a href="Document.html">Compétence</a></li> 
+               <li><a href="Expérience.html">Expérience</a></li> 
+               <li><a href="veille.html">Veille technologique</a></li> 
+               <li><a href="Coordonées.html">Coordonnées</a></li>
+               <li><a href="../pdf/Épreuve E4 - BTS SIO 2022.pdf">Tableau de synthèse</a></li>
     
+            </div>
+        </ul>
+        
+        <br>
+        <br>
+        <br>
+        
+        <div class="card-list">
+            <ul class="card-list">
+                <li class="card">
+                    <a class="card-image" href="https://www.linkedin.com/learning/l-essentiel-de-php-8/bienvenue-dans-l-essentiel-de-php-8-1?autoplay=true&u=57065257" target="" style="background-image: url(https://play-lh.googleusercontent.com/_rscxiBBXosch987Y2RJjgeVzhCoewK_0IXsrIKFKKVAaXRqZaVXcSgap7uwM4-fbck)" data-image-full="https://play-lh.googleusercontent.com/_rscxiBBXosch987Y2RJjgeVzhCoewK_0IXsrIKFKKVAaXRqZaVXcSgap7uwM4-fbck">
+                        <img src="" alt="Psychopomp"/>
+                    </a>
+                    <a class="card-description" href="https://www.linkedin.com/learning/l-essentiel-de-php-8/bienvenue-dans-l-essentiel-de-php-8-1?autoplay=true&u=57065257" target="">
+                        <h2>Découverte PHP</h2>
+                        <p>Cours linkedin learning</p>
+                    </a>
+                </li>
+    
+                <li class="card">
+                    <a class="card-image" href="https://www.codecademy.com/catalog/language/javascript" target="_blank" style="background-image: url(https://media-exp1.licdn.com/dms/image/C4D0BAQHvsuTmy13aYw/company-logo_200_200/0/1519952248948?e=2147483647&v=beta&t=-MUCwgs5ZqL_A6Qg4M5zFMsWNqHwnlu1l1MlPI6au_A)" data-image-full="https://media-exp1.licdn.com/dms/image/C4D0BAQHvsuTmy13aYw/company-logo_200_200/0/1519952248948?e=2147483647&v=beta&t=-MUCwgs5ZqL_A6Qg4M5zFMsWNqHwnlu1l1MlPI6au_A">
+                        <img src="https://media-exp1.licdn.com/dms/image/C4D0BAQHvsuTmy13aYw/company-logo_200_200/0/1519952248948?e=2147483647&v=beta&t=-MUCwgs5ZqL_A6Qg4M5zFMsWNqHwnlu1l1MlPI6au_A" alt="Psychopomp"/>
+                    </a>
+                    <a class="card-description" href="https://www.codecademy.com/catalog/language/javascript" target="">
+                        <h2>JavaScript</h2>
+                        <p>Cours/exercice sur Codeacademy</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <script>
+        // This is "probably" IE9 compatible but will need some fallbacks for IE8
+        // - (event listeners, forEach loop)
+    
+        // wait for the entire page to finish loading
+        window.addEventListener('load', function() {
+    
+        // setTimeout to simulate the delay from a real page load
+        setTimeout(lazyLoad, 1000);
+    
+        });
+    
+        function lazyLoad() {
+        var card_images = document.querySelectorAll('.card-image');
+    
+        // loop over each card image
+        card_images.forEach(function(card_image) {
+        var image_url = card_image.getAttribute('data-image-full');
+        var content_image = card_image.querySelector('img');
+    
+        // change the src of the content image to load the new high res photo
+        content_image.src = image_url;
+    
+        // listen for load event when the new photo is finished loading
+        content_image.addEventListener('load', function() {
+            // swap out the visible background image with the new fully downloaded photo
+            card_image.style.backgroundImage = 'url(' + image_url + ')';
+            // add a class to remove the blur filter to smoothly transition the image change
+            card_image.className = card_image.className + ' is-loaded';
+        });
+    
+        });
+    
+        }
+    
+    
+        </script>
 </body>
 </html>
