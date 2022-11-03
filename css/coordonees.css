@@ -4,7 +4,7 @@ html, body {
     padding: 0;
     padding-top: 0%;
     color: rgb(202, 202, 202);
-    background: linear-gradient(90deg, rgba(58,141,180,0.26420990759585083) 0%, rgba(33,150,190,1) 27%, rgba(123,69,252,1) 100%);
+    background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgb(0, 0, 0) 100%);
     font-family: "Source Code Pro", monospace;
 }
 /* nav bar */
@@ -19,7 +19,7 @@ html, body {
     padding: 0;
     overflow: hidden;
     background: rgb(58,141,180);
-    background: linear-gradient(90deg, rgba(58,141,180,0.26420990759585083) 0%, rgba(33,150,190,1) 27%, rgba(123,69,252,1) 100%);
+    background: linear-gradient(90deg, rgba(58,141,180,0.26420990759585083) 0%, rgb(0, 0, 0) 27%, rgba(123,69,252,1) 100%);
 }
 .nav li{
     float: left !important;

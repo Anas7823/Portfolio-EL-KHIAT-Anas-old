@@ -17,8 +17,8 @@ list-style-type: none;
 margin: 0;
 padding: 0;
 overflow: hidden;
-background: rgb(58,141,180);
-background: linear-gradient(90deg, rgba(58,141,180,0.26420990759585083) 0%, rgba(33,150,190,1) 27%, rgba(123,69,252,1) 100%);
+background: rgb(0, 0, 0);
+background: linear-gradient(90deg, rgba(83, 58, 183, 0.589) 0%, rgb(0, 0, 0) 27%, rgba(123,69,252,1) 100%);
 }
 .nav li{
 float: left !important;
