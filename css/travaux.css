@@ -31,6 +31,7 @@ body {
     color: rgb(202, 202, 202);
     background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgb(0, 0, 0) 100%);
     font-family: "Source Code Pro", monospace;
+	height: 100vh;
 }
 
 /* Lazy Load Styles */
