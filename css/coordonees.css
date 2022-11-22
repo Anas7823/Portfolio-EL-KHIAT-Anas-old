@@ -127,7 +127,7 @@ resize: none;
 cursor: pointer;
 width: 100%;
 border: none;
-background: #002df5;
+background: rgba(84,58,183,1);
 color: #FFF;
 margin: 0 0 5px;
 padding: 10px;
@@ -135,7 +135,7 @@ font-size: 15px;
 }
 
 #contact button[type="submit"]:hover {
-background: #00c3ff;
+background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgb(0, 0, 0) 100%);
 -webkit-transition: background 0.3s ease-in-out;
 -moz-transition: background 0.3s ease-in-out;
 transition: background-color 0.3s ease-in-out;
