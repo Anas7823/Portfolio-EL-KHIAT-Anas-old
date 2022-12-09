@@ -100,8 +100,13 @@ body {
 
 .card-description > h2 {
 	margin: 0 0 0.5em;
+	text-decoration: underline;
 }
 
 .card-description > p {
 	margin: 0;
+}
+
+h2{
+	font-size: 20px;
 }
