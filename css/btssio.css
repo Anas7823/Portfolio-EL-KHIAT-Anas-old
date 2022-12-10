@@ -43,12 +43,11 @@ text-decoration: none !important ;
 
 .container
 {
-  margin-top: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  padding: 40px 0;
+  padding: 40px 28rem;
 }
 
 .container .box
@@ -248,18 +247,18 @@ text-decoration: none !important ;
 }
 
 .infobts{
-    max-width: 10rem;
-    color: #ffffffda;
-    padding: 1.5rem;
-    background-color: #202022;
+  width: 10rem;
+  color: #ffffffda;
+  padding: 1.5rem;
+  background-color: #202022;
 
 
-    transform: scale(1);
-    opacity: 1;
-    transition: all 150ms ease-in-out;
+  transform: scale(1);
+  opacity: 1;
+  transition: all 150ms ease-in-out;
 
-    flex-direction: column;
+  flex-direction: column;
 }
 .card-body {
-    position: relative;
+  position: relative;
 }
