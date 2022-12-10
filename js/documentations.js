@@ -12,7 +12,7 @@ $(document).ready(function()
         else
         {
             console.log("Le bontoun a été cliqué.");
-            $('#masquer1').show();
+            $('#masquer1').show(500);
             $('.1').val('cacher')
         }
     })
@@ -32,7 +32,7 @@ $(document).ready(function()
         else
         {
             console.log("Le bontoun a été cliqué.");
-            $('#masquer2').show();
+            $('#masquer2').show(500);
             $('.2').val('cacher')
         }
     })   
@@ -52,7 +52,7 @@ $(document).ready(function()
         else
         {
             console.log("Le bontoun a été cliqué.");
-            $('#masquer3').show();
+            $('#masquer3').show(500);
             $('.3').val('cacher')
         }
     })    
@@ -72,7 +72,7 @@ $(document).ready(function()
         else
         {
             console.log("Le bontoun a été cliqué.");
-            $('#masquer4').show();
+            $('#masquer4').show(500);
             $('.4').val('cacher')
         }
     })    
@@ -92,7 +92,7 @@ $(document).ready(function()
         else
         {
             console.log("Le bontoun a été cliqué.");
-            $('#masquer5').show();
+            $('#masquer5').show(500);
             $('.5').val('cacher')
         }
     })
@@ -115,7 +115,7 @@ $(document).ready(function()
         else
         {
             console.log("Le bontoun a été cliqué.");
-            $('#masquer6').show();
+            $('#masquer6').show(500);
             $('.6').val('cacher')
         }
     })

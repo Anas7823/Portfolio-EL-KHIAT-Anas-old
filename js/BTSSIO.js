@@ -12,7 +12,7 @@ $(document).ready(function()
         else
         {
             console.log("Le bontoun a été cliqué.");
-            $('#masquer').show();
+            $('#masquer').show(500);
             $('i').val('cacher')
         }
     })
