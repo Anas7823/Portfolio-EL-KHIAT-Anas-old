@@ -6,7 +6,7 @@ $(document).ready(function()
 			console.log("Le bouton a été cliqué.");
             if ($('i').val()==='cacher')
             {
-            $('#masquer').fadeOut();
+            $('#masquer').hide(500);
             $('i').val('montrer')
 		}
         else
