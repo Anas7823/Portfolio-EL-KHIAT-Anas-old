@@ -169,3 +169,26 @@ $(document).ready(function()
         console.log("La mise en place est finie. En attente d'événements...");
     
 });
+
+$(document).ready(function()
+{
+     console.log("Le document est prêt");
+     $('.9').click(function()
+		{
+		console.log("Le bouton a été cliqué.");
+        if ($('.9').val()==='cacher')
+        {
+            $('#masquer9').fadeOut();
+            $('.9').val('montrer')
+		}
+        else
+        {
+            console.log("Le bontoun a été cliqué.");
+            $('#masquer9').show(500);
+            $('.9').val('cacher')
+        }
+    })
+    
+        console.log("La mise en place est finie. En attente d'événements...");
+    
+});
