@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>Travaux en JestJS</title>
+	<link rel="stylesheet" href="../../css/travaux.css">
+</head>
+
+<body class="img">
+	<ul class=ulnom> 
+		<div class="info">
+			<li><a href="../../index.html">Accueil</a></li>
+			<li><a href="../../html/Moi.html">À propos</a></li>
+			<li><a href="../../html/BTSSIO.html">BTS SIO</a></li>
+			<li><a href="../../html/Document.html" style="text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 1em #C70039, 0 0 0.2em #C70039;">Compétences</a></li> 
+			<li><a href="../../html/Projets.html">Projets</a></li>
+			<li><a href="../../html/Apprentissage.html">Apprentissage</a></li> 
+			<li><a href="../../html/veille.html">Veille technologique</a></li> 
+			<li><a href="../Documentation.html">Documentations</a></li>
+			<li><a href="../../html/Coordonées.html">Coordonnées</a></li>
+			<li><a target="_blank" href="../../pdf/Épreuve E4 - BTS SIO 2022.pdf">Tableau de synthèse</a></li>
+		</div>
+	</ul>
+	<br>
+	<br>
+	<br>
+
+	<div class="card-list">
+		<ul class="card-list">
+			<li class="card">
+				<a class="card-image" href="../../pdf/JEST.pdf" target="_blank" style="background-image: url(https://camo.githubusercontent.com/f2c80b28082b1568bf6ae3e4b999dcf6916e4f7ef611aa48efed85198ebe53a9/68747470733a2f2f6a6573746a732e696f2f696d672f6a6573742e706e67)" data-image-full="https://camo.githubusercontent.com/f2c80b28082b1568bf6ae3e4b999dcf6916e4f7ef611aa48efed85198ebe53a9/68747470733a2f2f6a6573746a732e696f2f696d672f6a6573742e706e67">
+					<img title="Documentation" src="https://camo.githubusercontent.com/f2c80b28082b1568bf6ae3e4b999dcf6916e4f7ef611aa48efed85198ebe53a9/68747470733a2f2f6a6573746a732e696f2f696d672f6a6573742e706e67" alt="Psychopomp"/>
+				</a>
+				<a target="_blank" class="card-description" href="../../pdf/JEST.pdf" target="">
+					<h2>JestJS</h2>
+					<p>Test de fonction</p>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<script>
+	// This is "probably" IE9 compatible but will need some fallbacks for IE8
+	// - (event listeners, forEach loop)
+
+	// wait for the entire page to finish loading
+	window.addEventListener('load', function() {
+
+	// setTimeout to simulate the delay from a real page load
+	setTimeout(lazyLoad, 1000);
+
+	});
+
+	function lazyLoad() {
+	var card_images = document.querySelectorAll('.card-image');
+
+	// loop over each card image
+	card_images.forEach(function(card_image) {
+	var image_url = card_image.getAttribute('data-image-full');
+	var content_image = card_image.querySelector('img');
+
+	// change the src of the content image to load the new high res photo
+	content_image.src = image_url;
+
+	// listen for load event when the new photo is finished loading
+	content_image.addEventListener('load', function() {
+		// swap out the visible background image with the new fully downloaded photo
+		card_image.style.backgroundImage = 'url(' + image_url + ')';
+		// add a class to remove the blur filter to smoothly transition the image change
+		card_image.className = card_image.className + ' is-loaded';
+	});
+
+	});
+
+	}
+
+
+	</script>
+
+</body>
+</html>
