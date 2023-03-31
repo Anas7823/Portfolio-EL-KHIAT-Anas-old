@@ -192,3 +192,26 @@ $(document).ready(function()
         console.log("La mise en place est finie. En attente d'événements...");
     
 });
+
+$(document).ready(function()
+{
+     console.log("Le document est prêt");
+     $('.10').click(function()
+		{
+		console.log("Le bouton a été cliqué.");
+        if ($('.10').val()==='cacher')
+        {
+            $('#masquer10').fadeOut();
+            $('.10').val('montrer')
+		}
+        else
+        {
+            console.log("Le bontoun a été cliqué.");
+            $('#masquer10').show(500);
+            $('.10').val('cacher')
+        }
+    })
+    
+        console.log("La mise en place est finie. En attente d'événements...");
+    
+});
