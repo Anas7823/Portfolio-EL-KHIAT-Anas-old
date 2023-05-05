@@ -53,6 +53,22 @@ body{
     margin-top: 2%;
 }
 
+.doc  button{
+    font-size: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.151);
+    border-radius: 20px;
+    width: 50px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(5deg, rgb(67, 4, 83), violet);
+    transition: color 0.4s linear;
+}
+
+.doc  button:hover{
+    color: #f20089;
+}
+
 .masquer{
     display:none;
 }
