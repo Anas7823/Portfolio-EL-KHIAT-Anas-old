@@ -215,3 +215,26 @@ $(document).ready(function()
         console.log("La mise en place est finie. En attente d'événements...");
     
 });
+
+$(document).ready(function()
+{
+     console.log("Le document est prêt");
+     $('.11').click(function()
+		{
+		console.log("Le bouton a été cliqué.");
+        if ($('.11').val()==='cacher')
+        {
+            $('#masquer11').fadeOut();
+            $('.11').val('montrer')
+		}
+        else
+        {
+            console.log("Le bontoun a été cliqué.");
+            $('#masquer11').show(500);
+            $('.11').val('cacher')
+        }
+    })
+    
+        console.log("La mise en place est finie. En attente d'événements...");
+    
+});
