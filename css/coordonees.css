@@ -53,3 +53,17 @@ html, body {
     color: white !important;
 
 }
+
+.listeCoordonées a{
+    text-decoration:none;
+    color: white !important;
+    transition: color 0.4s linear;
+}
+
+.listeCoordonées a:hover{
+    color: #240070 !important;
+    padding: 5px;
+    background-color: white;
+    border-radius: 10px;
+    transition: color 0.6s linear;
+}
