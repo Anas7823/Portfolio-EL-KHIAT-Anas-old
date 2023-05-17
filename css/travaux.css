@@ -88,7 +88,7 @@ body {
 
 .card:hover {
 	transform: translateY(-0.5rem) scale(1.0125);
-	box-shadow: 0 0.5em 3rem -1rem rgba(0,0,0,0.5);
+	box-shadow: 12px 12px 15px 8px rgb(63, 20, 255);
 }
 
 .card-description {
