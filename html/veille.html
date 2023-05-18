@@ -28,89 +28,51 @@
         </div>
     </ul> 
 
+    <div class="contenaire">
+        <div class="carte">
+            <div class="titreCarte">
+                <h1>ReactJS</h1>
+            </div>
+            <div class="SousTitreCarte">
+                <h3>Veille technologique</h3>
+            </div>
+            <div class="texteCarte">
+                La veille technologique en informatique, c'est rester informé des dernières avancées et tendances technologiques. Cela permet de rester à jour et de prendre des décisions éclairées.    
+            </div>
 
-    <div class="card text-white bg-dark mb-3 mx-auto contenueVeille" style="width: 90vw; height:85vh; margin-top: 4vh;">
-        <iframe src="../pdf/veille/Veille-tech.pdf" frameborder="0" style="height: 100%;"></iframe>
-        <!-- <div class="card-header">Veille technologique</div>
-        <div class="card-body">
-          <h5 class="card-title">React JS</h5>
-          <p class="card-text"> <b>React c'est quoi ?</b> <br>
-            React Js, est une technologie Javascript crée en 2013 Par les équipes de Facebook Mais il ne s'agit pas d'un Framework à proprement parler. <br>
-            En fait, il s'agit plus d'une librairie Javascript open source qui permet de construire des interfaces utilisateur dynamique. <br>
-            Pour utiliser React, il faut avoir de bonnes bases en javascript. Il y a plusieurs plateformes qui sont créé en React comme Netflix Instagram et Tesla. 
-            <br> Source : <a href="https://adame-techs-tv.com/fr/course/react/lesson/1.1-introduction.html" target="_blank">Adame-techs-tv</a> 
-            </p>
-        </div>
-        <div class="card-body">
-            <p class="card-text"> <b>Pourquoi ce sujet ?</b> <br>
-                Après avoir appris et fait quelques projets en React JS je me suis rendu compte que je trouvais ce framework/librairie très pratique et assez simple à prendre en mains.
-            </p>
+            <br>
+            <a href="../pdf/veille/Veille-tech.pdf" target="_blank">
+                <button class="btnCarte visionner-btn"><i class="fas fa-eye"></i> Visionner</button>
+            </a>
+            <br>
+            <a href="../pdf/veille/Veille-tech.pdf" download="VeilleTechnologiqueReactjs">
+                <button class="btnCarte telecharger-btn"><i class="fas fa-download"></i> Télécharger</button>
+            </a>
         </div>
 
-        <table>
-            <tr>
-                <td>
-                    <div class="card-body">
-                        <p class="card-text"> <b>Quelques points forts:</b> <br>
-                            <ul>
-                                <ol>
-                                    <b>Rapidité :</b> <br> 
-                                    ReactJS calcule quel changement dans le DOM a besoin d’être fait, 
-                                    et change juste LA PARTIE qui a besoin d’être mise à jour. De cette façon, ReactJS évite des opérations coûteuses dans le DOM.
-                                </ol>
-                                <hr>
-                                <ol>
-                                    <b>Plus simple à écrire que du JS:</b> <br>
-                                    ReactJS utilise une syntaxe spéciale appelé JSX, qui permet de mixer l’HTML et le Javascript. <br>
-                                    Ce n’est pas obligatoire, on peu toujours écrire nos app ReactJS en Javascript simple <br>
-                                    mais il est très fortement recommandé et on s'y habitue rapidement <br>
-                                </ol>
-                            </ul>
-                        </p>
-                            source: <a href="https://www.acseo.fr/6-raisons-daimer-reactjs" target="_blank">Acseo</a> & <a target="_blank" href="https://www.ambient-it.net/reactjs-vs-angular-vs-vuejs/#:~:text=Inconv%C3%A9nients%20de%20ReactJS&text=React%20est%20unopinionated%2C%20ce%20qui,utilisateur%20dans%20le%20framework%20MVC.">ambient-it</a>
-                        </div>
-                    </td>
-                    <td>
-                        <div class="card-body" style="border-left: 1px solid gray;">
-                            <p class="card-text"> <b>Points faibles:</b> <br>
-                            <ul>
-                                <ol>
-                                    <b>Manque de documentation officielle: </b> <br> 
-                                    Le développement ultra-rapide de ReactJS ne laisse aucune place à la documentation appropriée, mais il se rattrape grâce à sa documentation open source.
-                                </ol>
-                                <hr>
-                                <ol>
-                                    <b>Fragilité de l'écosystème: </b> <br>
-                                    l'écosystème de ReactJS est assez fragile, ce qui peut entraîner des problèmes de compatibilité entre les différentes versions de bibliothèques et de packages.
-                                </ol>
-                            </ul>
-                        </p>
-                    </div>
-                </td>
-            </tr>
-        </table>
-        
-        <div class="card-body">
-            <p class="card-text"> <b>Intérêt De React Face Aux Autres Frameworks :</b> <br>
-                La compétition est rude dans les frameworks JavaScript, notamment entre Angular (1 et 2), Ember et <br>
-                ReactJS. C’est peu de le dire ! Chaque framework a ses spécificités et le choix d’un d’entre eux est
-                très compliqué. L’intérêt de React réside tout d’abord dans son approche composante,<br>
-                complètement différente des autres, et qui, au lieu de laisser notre JavaScript modifier le DOM, écrit
-                du HTML dans ses composants JavaScript en interne. On obtient alors un code plus compréhensible.<br>
-                Bien sûr, tout cela est très subjectif et il faut voir avec sa sensibilité personnelle et les contraintes que<br>
-                l’on a React s’intègre parfaitement avec les nouveautés de ECMAScript 6, dont la création de classe
-                ou les “arrow methods”. Un autre point positif est l’existence de React Native, permettant de créer<br>
-                des applications mobiles à la manière de Cordova/Ionic pour Angular. De plus, React a été créé en se
-                concentrant sur les performances, utilisant un DOM virtuel pour rafraîchir uniquement les<br>
-                composants qui ont été modifiés et non toute la page (il reste cependant plus lent que du JavaScript
-                pur). Concernant les webcomponents (avec le framework Polymer par exemple), ceux-ci ont un but<br>
-                différent de React. En effet, React va principalement chercher à synchroniser les données et le DOM.
-                Alors que les webcomponents vont être principalement créés pour encapsuler des composants. Les<br>
-                deux approches sont finalement complémentaires et on peut donc utiliser Polymer avec React.
-                <a href="../pdf/Portfolio ▸Mettre en œuvre des outils et stratégies de veille informationnelle.pdf" target="_blank"><i class="fas fa-book a-doc"></i><span id="masquer">Outils de veille</span></a> 
-            </p>
-        </div> -->
-        
-      </div>
+        <div class="carte">
+            <div class="titreCarte">
+                <h1>DeepFake</h1>
+            </div>
+            <div class="SousTitreCarte">
+                <h3>Veille juridique</h3>
+            </div>
+            <div class="texteCarte">
+                La veille juridique c'est suivre les évolutions législatives pour rester en conformité avec la loi. 
+                Cela implique de se tenir informé des nouvelles réglementations, 
+                décisions judiciaires et obligations légales. 
+                Cela permet de prendre des décisions éclairées et de prévenir les risques juridiques.
+            </div>
+            <br>
+            <a href="../pdf/veille/Veille-juridique.pdf" target="_blank">
+                <button class="btnCarte visionner-btn"><i class="fas fa-eye"></i> Visionner</button>
+            </a>
+            <br>
+            <a href="../pdf/veille/Veille-juridique.pdf" download="VeilleJuridiqueDeepFake">
+                <button class="btnCarte telecharger-btn"><i class="fas fa-download"></i> Télécharger</button>
+            </a>
+        </div>
+    </div>
+    
 </body>
 </html>
