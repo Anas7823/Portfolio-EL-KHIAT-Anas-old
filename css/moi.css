@@ -96,7 +96,7 @@ html {
   position: absolute;
   right: 0;
 }
-    /* Petits ronds */
+/* Petits ronds */
 
 .date {
   color: #bb86fc;
@@ -127,8 +127,6 @@ html {
 .description:nth-child(n) {
   transform: rotate(-5deg);
 }
-  
-
 
 .cards:hover > .card:hover {
   transform: scale(1.15);
